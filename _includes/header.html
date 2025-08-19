@@ -1,4 +1,17 @@
-<header class="topbar">
+<header class="topbar"><div class="utility">
+  <div class="util-links">
+    <a href="#">Kennisagenda</a>
+    <a href="#">Nieuws</a>
+    <a href="#">Werken bij</a>
+    <a href="#">Sportwerkgever</a>
+    <a href="#">Over ons</a>
+    <a href="#">Contact</a>
+  </div>
+  <form class="util-search" action="{{ '/index.html' | relative_url }}">
+    <input type="search" placeholder="Zoeken…" id="globalSearch" aria-label="Zoeken">
+    <button type="button" onclick="document.getElementById('globalSearch').focus()">🔎</button>
+  </form>
+</div>
   <a class="brand" href="{{ '/' | relative_url }}">
     <img class="logo" src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Sport Fryslân">
     <div class="brand-text"><strong>Sport Fryslân</strong><span>Interne wiki • Clubondersteuning</span></div>

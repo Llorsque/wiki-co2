@@ -135,3 +135,15 @@ a:hover{text-decoration:underline}
 
 /* FOOTER */
 .footer{display:flex;justify-content:space-between;align-items:center;padding:20px 22px;color:#667085}
+
+
+/* Utility top bar (right links + search) */
+.utility{display:flex;gap:12px;align-items:center;justify-content:flex-end;width:100%}
+.util-links{display:flex;gap:16px;margin-left:auto}
+.util-links a{font-size:13px;color:#7b8497}
+.util-links a:hover{color:var(--navy)}
+
+.util-search{display:flex;gap:8px;align-items:center;margin-left:8px}
+.util-search input{padding:10px 12px;border:1px solid var(--border);border-radius:999px;min-width:220px}
+.util-search button{background:var(--yellow);border:none;border-radius:10px;padding:8px 12px;font-weight:800;color:var(--navy);cursor:pointer}
+.util-search button:hover{filter:brightness(1.05)}

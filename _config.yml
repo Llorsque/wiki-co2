@@ -1,6 +1,6 @@
 title: "Sport Fryslân • Interne wiki"
 description: "Clubondersteuning — producten & diensten per thema"
-baseurl: ""
+baseurl: "/wiki-co2"
 url: ""
 collections:
   producten: { output: true, permalink: /product/:name/ }

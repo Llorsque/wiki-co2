@@ -16,3 +16,14 @@
 
 ## Styling
 - Sport Fryslân-huisstijl (donkerblauw #212945, turquoise #52E8E8, Archivo) + cards, schaduwen, veel witruimte.
+
+
+---
+
+### Project Page configuratie
+Deze build is vooraf ingesteld voor repo **`wiki-co2`**:
+```yml
+baseurl: "/wiki-co2"
+url: ""
+```
+Als je later de repo-naam wijzigt, pas bovenstaande waarden aan in `_config.yml`.
