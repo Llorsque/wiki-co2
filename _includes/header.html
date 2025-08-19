@@ -1,0 +1,19 @@
+<header class="topbar">
+  <a class="brand" href="{{ '/' | relative_url }}">
+    <img class="logo" src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Sport Fryslân">
+    <div class="brand-text"><strong>Sport Fryslân</strong><span>Interne wiki • Clubondersteuning</span></div>
+  </a>
+  <nav class="nav">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Thema’s ▾</button>
+      <div class="dropdown-content">
+        {% assign ts = site.themas | sort: 'title' %}
+        {% for t in ts %}
+          <a href="{{ t.url | relative_url }}">{{ t.title }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    <a href="{{ '/product/' | relative_url }}">Alle producten</a>
+  </nav>
+</header>
